@@ -1,7 +1,7 @@
 {
   "domain": "open_epaper_link",
   "name": "OpenEPaperLink",
-  "codeowners": ["@jonasniesner"],
+  "codeowners": ["@jonasniesner","@phpsystems"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/jonasniesner/open_epaper_link_homeassistant",
@@ -9,5 +9,5 @@
   "iot_class": "local_push",
   "issue_tracker": "https://github.com/jonasniesner/open_epaper_link_homeassistant/issues",
   "requirements": [],
-  "version": "0.1.4"
+  "version": "0.1.4a"
 }
