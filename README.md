@@ -2,6 +2,8 @@
 
 Home Assistant Integration for the <a href="https://github.com/jjwbruijn/OpenEPaperLink">OpenEPaperLink</a> project
 
+Phpsystems Fork
+
 Feature Request and code contributions are welcome!
 
 ## Functionality
@@ -18,6 +20,13 @@ Every tag and the AP is exposed as a device.
 Download an image from the provided url and if required, resized it for the esl it should be displayed on.
 
 This requires that the esl has checked in once before fo Home Assistant knows the hardware type of it so if this service fail, wait 10 to 20 minutes.
+
+#### Display Image
+
+As above, but with a file from your home assistant's media directory.
+
+This requires that the esl has checked in once before fo Home Assistant knows the hardware type of it so if this service fail, wait 10 to 20 minutes.
+
 
 #### drawcustom
 This Service call draws a image local in home assistant, and will send it to the EPaper AP afterwards. Note that the rectangle is not transparent, so if it is drawn after other objects, it may overwrite them.
