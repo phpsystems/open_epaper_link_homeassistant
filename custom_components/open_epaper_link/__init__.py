@@ -87,6 +87,7 @@ def setup(hass, config):
 
     # register the services
     hass.services.register(DOMAIN, "dlimg", dlimg)
+    hass.services.register(DOMAIN, "dispimg", displayimg)
     hass.services.register(DOMAIN, "lines5", lines5service)
     hass.services.register(DOMAIN, "lines4", lines4service)
     hass.services.register(DOMAIN, "drawcustom", drawcustomservice)
