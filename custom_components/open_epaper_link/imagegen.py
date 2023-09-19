@@ -61,7 +61,7 @@ def downloadimg(entity_id, service, hass):
     byte_im = buf.getvalue()
     return byte_im
 
-def displayimg(entity_id, service, hass):
+def dispimg(entity_id, service, hass):
     file = service.data.get("file", "")
     rotate = service.data.get("rotation", 0)
 
