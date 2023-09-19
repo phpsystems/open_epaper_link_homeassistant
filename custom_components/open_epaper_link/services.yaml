@@ -20,6 +20,29 @@ dlimg:
       description: Whether the AP should dither the image or not
       required: false
       example: true
+
+displayimg:
+  name: Display Image
+  description: Displays an image from storage and sends it to an ESL. If it does not fit, the image will be resized
+  target:
+    entity:
+      domain: open_epaper_link
+  fields:
+    file:
+      name: File
+      description: The image to use
+      required: true
+      example: /media/test.png
+    rotation:
+      name: Rotation
+      description: Rotation to be applied to the image in degrees
+      required: false
+      example: 0
+    dither:
+      name: Dither
+      description: Whether the AP should dither the image or not
+      required: false
+      example: true
       
 setled:
   name: Set led color
