@@ -40,7 +40,7 @@ def setup(hass, config):
         for entity_id in entity_ids:
             _LOGGER.info("Called entity_id: %s" % (entity_id))
             id = entity_id.split(".")
-            imgbuff = await hass.async_add_executor_job(displayimg, entity_id, service, hass)
+            imgbuff = await hass.async_add_executor_job(dispimg, entity_id, service, hass)
             result = await hass.async_add_executor_job(uploadimg, imgbuff, id[1], ip, dither)
     
     # callback for the 5 line service
