@@ -2,8 +2,6 @@
 
 Home Assistant Integration for the <a href="https://github.com/jjwbruijn/OpenEPaperLink">OpenEPaperLink</a> project
 
-Phpsystems Fork
-
 Feature Request and code contributions are welcome!
 
 ## Functionality
